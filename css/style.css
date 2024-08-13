@@ -1,0 +1,103 @@
+/*+=======================
+    Css Reset
+=========================+*/
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0
+}
+/*+=======================
+    Fornatação geral
+=========================+*/
+html {
+    font-family: Arial;
+    color: #21243D;
+}
+html body a {
+    text-decoration: none;
+    color: #21243D;
+}
+
+/*+=======================
+    Fornatação do topo da página
+=========================+*/
+header {
+    margin: 0 5vw 3vw 5vw;
+}
+header nav ul {
+    display: flex;
+    justify-content: right;
+}
+header nav ul li {
+    cursor: pointer;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+header nav ul li .atual {
+    color: #ff6464;
+}
+/*+=======================
+    Fornatação da página
+=========================+*/
+.corpo {
+    margin: 0vw 30vw 0vw 30vw;
+}
+.corpo h1 {
+    font-weight: normal;
+    margin: 0 0 2vw 0;
+}
+.corpo .section1 {
+    padding-bottom: 2vw;
+    border-bottom: 2px solid grey;
+    margin-bottom: 3vw;
+}
+
+.corpo section p {
+    margin: 1vw 0 1vw 0;
+}
+.h3 {
+    font-size: 20px;
+}
+.corpo section p span {
+    padding: 2px 8px 2px 8px;
+    border-radius: 15px;
+    background: #ff6464;
+    color: white;
+    margin: 0 1vw 0 0;
+}
+
+footer {
+    margin: 5vw;
+    text-align: center;
+}
+footer nav ul {
+    display: flex;
+    justify-content: center;
+    /* AAAAAAAAAAAAAAAAAAA */
+}
+footer nav ul li a span {
+    font-size: 30px;
+    color: #21243D;
+    margin: 0 15px 2vw 15px;
+}
+
+
+
+
+
+/* @keyframes roda {
+    to {
+        transform: rotate3d(0, 1, 1, 0deg);
+    }
+    from {
+        transform: rotate3d(0, 1, 1, 360deg);
+    }
+}
+header nav ul li {
+    animation: roda 1s linear infinite;
+}
+ */
