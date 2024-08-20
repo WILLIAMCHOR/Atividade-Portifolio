@@ -41,7 +41,7 @@ header nav ul li .atual {
     color: #ff6464;
 }
 /*+=======================
-    Fornatação da página
+    Fornatação da Works
 =========================+*/
 .corpo {
     margin: 0vw 30vw 0vw 30vw;
@@ -77,7 +77,6 @@ footer {
 footer nav ul {
     display: flex;
     justify-content: center;
-    /* AAAAAAAAAAAAAAAAAAA */
 }
 footer nav ul li a span {
     font-size: 30px;
@@ -85,6 +84,119 @@ footer nav ul li a span {
     margin: 0 15px 2vw 15px;
 }
 
+/* ----------------------------------- Home ----------------------------------- */
+
+
+/*+=======================
+    Fornatação da Home
+=========================+*/
+
+.homeBody {
+    margin: 0vw 30vw 0vw 30vw;
+}
+.homeBody h1 {
+    font-size: 2vw;
+    margin: 0 0 2vw 0;
+}
+.topo {
+    display: flex;
+}
+.topo button {
+    padding: 10px;
+    border-radius: 3px;
+    background: #ff6464;
+    margin: 1.5vw 0 0 0;
+    color: white;
+    font-size: 18px;
+    transform: 1s;
+}
+.topo button:active {
+    padding: 10px;
+    border-radius: 3px;
+    background: #ff6464;
+    margin: 1.5vw 0 0 0;
+    color: white;
+    font-size: 18px;
+    transform: 1s;
+    opacity: 0.6;
+}
+.topo img {
+    margin: 0 0 0 5.5vw;
+}
+/* SECTION HOME */
+.homeSection {
+    margin: 5vw 0 5vw 0;
+}
+.homeSection h2 {
+    font-weight: normal;
+    font-size: 30px;
+}
+.homeSectionColor {
+    background: #EDF7FA;
+}
+.homeSection section {
+    display: flex;
+}
+.homeSection section div .espaco {
+    margin: 1.7vw;
+}
+.homeSection section div h3 {
+    font-size: 23px;
+    margin-bottom: 1.5vw;
+}
+/* SECTION 1 HOME */
+.homeSection section div .h4Home {
+    font-size: 17px;
+    margin-bottom: 1vw;
+}
+.homeSection section div .h4Home span {
+    margin: 0 1vw 0 1vw;
+    border-left: 2px gray solid;
+}
+/* SECTION 2 HOME */
+.homeSection section div {
+    margin: 1.7vw 1.7vw 1.7vw 0;
+}
+.homeSection section div .imagemFresca {
+    margin: 1,7vw;
+}
+.homeSection section div img {
+    margin-bottom: 1.5vw;
+}
+.homeSection section div .h4HomeDifenciado {
+    font-size: 17px;
+    color: gray;
+    margin-bottom: 1vw;
+}
+.homeSection section div .h4HomeDifenciado span {
+    padding: 2px 8px 2px 8px;
+    border-radius: 15px;
+    background: #21243D;
+    color: white;
+    margin: 0 1vw 0 0;
+}
+
+
+
+
+
+
+/*+=======================
+    Fornatação da Home Footer
+=========================+*/
+footer {
+    margin: 5vw;
+    text-align: center;
+}
+footer nav ul {
+    display: flex;
+    justify-content: center;
+}
+footer nav ul li a span {
+    font-size: 30px;
+    color: #21243D;
+    margin: 0 15px 2vw 15px;
+}
 
 
 
